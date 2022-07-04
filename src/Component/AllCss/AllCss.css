@@ -1,0 +1,120 @@
+/**************************registration page and login page start************************************/
+
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.main_registered_part{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.reg_heading{
+    text-align: center;
+    margin: 30px 0px;
+}
+.register_area{
+    display: grid;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 450px;
+    border-radius: 25px;
+    height: 530px;
+}
+.register{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form-input{
+   
+    height: 40px;
+    padding: 0px 14px;
+    width: 350px;
+    border-radius: 30px;
+    border: 1px solid #bfbfbf;
+}
+
+.margin{
+    margin-bottom: 20px;
+}
+
+.register_button{
+    display: flex;
+    justify-content: center;
+}
+.Button{
+    height: 36px;
+    width: 180px;
+    border: 1px solid #bfbfbf;
+    border-radius: 30px;
+    margin-top: 10px;
+    background-color:#9633FF;
+    color: #fff;
+}
+.account{
+    text-align: center;
+    margin:10px 0px 22px 0px;
+    font-weight: 500;
+}
+
+.reg_icons{
+    display: flex;
+    margin: 15px 0px;
+   justify-content: center;
+}
+.icon{ 
+    border: 1px solid #f3f3f3;
+    height: 34px;
+    width: 34px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#9633FF;
+    margin: 0px 3px
+}
+
+
+/**************************registration page and login page end************************************/
+
+
+/**************************header page start ************************************/
+
+.header_area{
+  display: flex;
+  justify-content:space-between;
+  padding: 20px 100px;
+  box-shadow: rgba(181, 179, 179, 0.35) 0px 5px 15px;
+}
+.header_area a{
+    color: #333;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.header_area a:hover{
+    color: #9633FF;
+    transition: .3s;
+}
+
+.logo {
+    font-size: 24px;
+    color: #9633FF;
+    
+}
+
+.signOut{
+    color: #333;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    background: none;
+    border: none;
+}
+/**************************header page end ************************************/
